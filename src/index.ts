@@ -13,4 +13,4 @@ header.render();
 
 const mainArray = await getPokeApi(mainUrl);
 
-console.log(await getPokemonsData(mainArray));
+await getPokemonsData(mainArray);
