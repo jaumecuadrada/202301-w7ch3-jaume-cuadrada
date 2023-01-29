@@ -7,7 +7,10 @@ class HeaderComponent extends Component {
 
   render(): void {
     super.render();
-    this.domElement.innerHTML = `<img src="pokemon-logo.svg" alt="pokemon logo">`;
+    this.domElement.innerHTML = `<img src="pokeball.png" alt="pokeball"> 
+    <img src="pokemon-logo.svg" alt="pokemon logo">
+    <img src="pokeball.png" alt="pokeball">
+    `;
   }
 }
 
