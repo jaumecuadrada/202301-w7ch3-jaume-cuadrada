@@ -83,7 +83,8 @@ article {
   padding: 10px;
   background-color: rgb(23, 80, 140);
   border-radius: 10px;
-  border: 2px solid rgb(255, 208, 19);
+  border: 4px solid rgb(255, 208, 19);
+  box-shadow: 10px 10px 40px #f1e214;
 }
 
 article img {
@@ -108,11 +109,32 @@ article img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 100%;
 }
 
 .pokemon-id {
   color: red;
   font-size: 30px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 200px;
+}
+
+button {
+  width: 200px;
+  background-color: rgb(229, 229, 229);
+  border: 5px solid rgb(164, 0, 1);
+}
+
+.prev-button {
+  border-top-left-radius: 300px;
+}
+.next-button {
+  border-top-right-radius: 300px;
 }
